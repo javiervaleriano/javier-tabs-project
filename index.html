@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tabs Project</title>
+        
+        <!--Styles-->
+        <link rel="stylesheet" href="Normalize.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="styles.css" type="text/css" media="all" />
+        
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&family=Roboto+Condensed&family=Zilla+Slab&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--Header with the title page-->
+        <header id="header">
+            <h1>About</h1>
+            <p>Learn a little about the journey we plan to travel with our associates and clients, who in the end are the most important thing for us.</p>
+        </header>
+        <!--Main content-->
+        <main>
+            <div class="container">
+                <div class="div-img">
+                    <a href="https://unsplash.com/photos/0K7GgiA8lVE" target="blank">
+                        <img id="image" src="https://images.unsplash.com/photo-1557425493-6f90ae4659fc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Man and woman laughing while sitting in front of laptops photo" />
+                    </a>
+                </div>
+                <article class="container-article">
+                    <div class="container-tabs">
+                        <button type="button" class="tab tab-active" data-tab="history">history</button>
+                        <button type="button" class="tab" data-tab="vision">vision</button>
+                        <button type="button" class="tab" data-tab="goals">goals</button>
+                    </div>
+                    <div class="text-article">
+                        <!--Single text-->
+                        <article id="history" class="content active">
+                            <h2>History</h2>
+                            <p class="paragraph">The creation of our company dates back to the 60\'s, a time in which there had not been much innovation in the field to which our company is dedicated. Mark Filmann, aware of this, decided to found Forever Entertainment, which after five years of little relevance in the market, took off in popularity and therefore in customers. Since then, it has evolved year after year, becoming what it is today.</p>
+                        </article>
+                        <!--End of single text-->
+                        <!--Single text-->
+                        <article id="vision" class="content">
+                            <h2>Vision</h2>
+                            <p class="paragraph">Our vision is clear, since we were the pioneers after our creation, we want to continue to be the pioneers after each new and significant change. May our name stand out after each mutation that marks a before and after in this field of entertainment. We have the ambition and the odds in our favor to achieve it.</p>
+                        </article>
+                        <!--End of single text-->
+                        <!--Single text-->
+                        <article id="goals" class="content">
+                            <h2>Goals</h2>
+                            <p class="paragraph">Our concise goals include:</p>
+                        <ul>
+                            <li>Increase the number of employees in the different departments by at least 20%.</li>
+                            <li>Increase the capital of the company by 15%.</li>
+                            <li>Investment of 10% of the net capital for the improvement of the infrastructures.</li>
+                                <li>15% increase in branches in the United States of America.</li>
+                                <li>5% increase in branches worldwide, especially in Asia.</li>
+                            </ul>
+                        </article>
+                        <!--End of single text-->
+                    </div>
+                </article>
+            </div>
+        </main>
+        
+        <!-- JS -->
+        <script src="index.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>
